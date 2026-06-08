@@ -1,0 +1,55 @@
+<!-- Jaymes Morris -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Form - Jaymes' Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jaymes' Pizza</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="menu.html">Menu</a>
+            <a href="customer.html">Customer Form</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Create Customer Account</h2>
+        <form>
+            <p>
+                <label for="firstname">First Name</label><br/>
+                <input type="text" id="firstname" name="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name</label><br/>
+                <input type="text" id="lastname" name="lastname">
+            </p>
+            <p>
+                <label for="email">Email Address</label><br/>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="password">Password</label><br/>
+                <input type="password" id="password" name="password">
+            </p>
+            <p>
+                <label for="favorite">Favorite Pizza</label><br/>
+                <input list="pizzas" id="favorite" name="favorite">
+                <datalist id="pizzas">
+                    <option value="Cheese">
+                    <option value="Pepperoni">
+                    <option value="Veggie Supreme">
+                    <option value="Meat Lovers">
+                </datalist>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </main>
+</body>
+</html>

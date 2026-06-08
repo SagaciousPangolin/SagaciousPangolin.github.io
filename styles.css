@@ -1,0 +1,35 @@
+/* Jaymes Morris */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fff8f0;
+}
+
+header {
+    background-color: #c0392b;
+    color: white;
+    padding: 16px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+}
+
+img {
+    max-width: 400px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.css-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-position: inside;
+}
