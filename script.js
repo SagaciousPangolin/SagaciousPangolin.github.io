@@ -1,3 +1,6 @@
+// Jaymes Morris
+// https://github.com/SagaciousPangolin/
+// https://sagaciouspangolin.github.io/
 const customers = [];
 
 document.getElementById("submitBtn").addEventListener("click", function() {
@@ -16,5 +19,6 @@ document.getElementById("submitBtn").addEventListener("click", function() {
     document.getElementById("firstname").value = "";
     document.getElementById("lastname").value = "";
     document.getElementById("email").value = "";
+    document.getElementById("password").value = "";
     document.getElementById("favorite").value = "";
 });
