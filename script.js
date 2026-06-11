@@ -12,4 +12,9 @@ document.getElementById("submitBtn").addEventListener("click", function() {
     customers.push(customer);
     console.clear();
     console.log(customers);
+
+    document.getElementById("firstname").value = "";
+    document.getElementById("lastname").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("favorite").value = "";
 });
