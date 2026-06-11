@@ -21,4 +21,6 @@ document.getElementById("submitBtn").addEventListener("click", function() {
     document.getElementById("email").value = "";
     document.getElementById("password").value = "";
     document.getElementById("favorite").value = "";
+
+    alert("Submitted successfully!");
 });
